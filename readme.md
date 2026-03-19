@@ -1,5 +1,5 @@
 
-# IR
+# Generic IR
 
 ## Задача
 
@@ -175,7 +175,7 @@ int function2 (int ∗a , int n) {
 
 SSA-форма после свёртки констант и оптимизации умножения:
 
-![Const-optimized SSA](pics/ssa_opt_cycle.svg)
+![Const-optimized SSA](pics/ssa_opt_const.svg)
 
 ### Развёртка цикла
 
