@@ -1,0 +1,96 @@
+<svg width="188pt" height="304pt" viewBox="0.00 0.00 188.00 304.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 300)">
+<title>G1</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-300 183.57,-300 183.57,4 -4,4"/>
+<!-- bb0 -->
+<g id="node1" class="node">
+<title>bb0</title>
+<path fill="#f9f9f9" stroke="#cccccc" d="M87,-296C87,-296 57,-296 57,-296 51,-296 45,-290 45,-284 45,-284 45,-272 45,-272 45,-266 51,-260 57,-260 57,-260 87,-260 87,-260 93,-260 99,-266 99,-272 99,-272 99,-284 99,-284 99,-290 93,-296 87,-296"/>
+<text xml:space="preserve" text-anchor="middle" x="72" y="-274.7" font-family="Segoe UI" font-size="11.00">bb0</text>
+</g>
+<!-- bb1 -->
+<g id="node2" class="node">
+<title>bb1</title>
+<path fill="#f9f9f9" stroke="#cccccc" d="M87,-231C87,-231 57,-231 57,-231 51,-231 45,-225 45,-219 45,-219 45,-207 45,-207 45,-201 51,-195 57,-195 57,-195 87,-195 87,-195 93,-195 99,-201 99,-207 99,-207 99,-219 99,-219 99,-225 93,-231 87,-231"/>
+<text xml:space="preserve" text-anchor="middle" x="72" y="-209.7" font-family="Segoe UI" font-size="11.00">bb1</text>
+</g>
+<!-- bb0&#45;&gt;bb1 -->
+<g id="edge1" class="edge">
+<title>bb0-&gt;bb1</title>
+<path fill="none" stroke="#666666" d="M72,-259.78C72,-253.67 72,-246.65 72,-239.97"/>
+<polygon fill="#666666" stroke="#666666" points="72,-232.41 75.6,-240.41 72,-235.19 72,-240.41 72,-240.41 72,-240.41 72,-235.19 68.4,-240.41 72,-232.41"/>
+</g>
+<!-- bb2 -->
+<g id="node3" class="node">
+<title>bb2</title>
+<path fill="#f9f9f9" stroke="#cccccc" d="M42,-166C42,-166 12,-166 12,-166 6,-166 0,-160 0,-154 0,-154 0,-142 0,-142 0,-136 6,-130 12,-130 12,-130 42,-130 42,-130 48,-130 54,-136 54,-142 54,-142 54,-154 54,-154 54,-160 48,-166 42,-166"/>
+<text xml:space="preserve" text-anchor="middle" x="27" y="-144.7" font-family="Segoe UI" font-size="11.00">bb2</text>
+</g>
+<!-- bb1&#45;&gt;bb2 -->
+<g id="edge2" class="edge">
+<title>bb1-&gt;bb2</title>
+<path fill="none" stroke="#666666" d="M59.7,-194.78C55.04,-188.26 49.64,-180.69 44.58,-173.61"/>
+<polygon fill="#666666" stroke="#666666" points="39.99,-167.19 47.57,-171.6 41.61,-169.45 44.64,-173.7 44.64,-173.7 44.64,-173.7 41.61,-169.45 41.71,-175.79 39.99,-167.19"/>
+</g>
+<!-- bb6 -->
+<g id="node4" class="node">
+<title>bb6</title>
+<path fill="#f9f9f9" stroke="#cccccc" d="M132,-166C132,-166 102,-166 102,-166 96,-166 90,-160 90,-154 90,-154 90,-142 90,-142 90,-136 96,-130 102,-130 102,-130 132,-130 132,-130 138,-130 144,-136 144,-142 144,-142 144,-154 144,-154 144,-160 138,-166 132,-166"/>
+<text xml:space="preserve" text-anchor="middle" x="117" y="-144.7" font-family="Segoe UI" font-size="11.00">bb6</text>
+</g>
+<!-- bb1&#45;&gt;bb6 -->
+<g id="edge3" class="edge">
+<title>bb1-&gt;bb6</title>
+<path fill="none" stroke="#666666" d="M84.3,-194.78C88.96,-188.26 94.36,-180.69 99.42,-173.61"/>
+<polygon fill="#666666" stroke="#666666" points="104.01,-167.19 102.29,-175.79 102.39,-169.45 99.36,-173.7 99.36,-173.7 99.36,-173.7 102.39,-169.45 96.43,-171.6 104.01,-167.19"/>
+</g>
+<!-- bb3 -->
+<g id="node5" class="node">
+<title>bb3</title>
+<path fill="#f9f9f9" stroke="#cccccc" d="M42,-101C42,-101 12,-101 12,-101 6,-101 0,-95 0,-89 0,-89 0,-77 0,-77 0,-71 6,-65 12,-65 12,-65 42,-65 42,-65 48,-65 54,-71 54,-77 54,-77 54,-89 54,-89 54,-95 48,-101 42,-101"/>
+<text xml:space="preserve" text-anchor="middle" x="27" y="-79.7" font-family="Segoe UI" font-size="11.00">bb3</text>
+</g>
+<!-- bb2&#45;&gt;bb3 -->
+<g id="edge4" class="edge">
+<title>bb2-&gt;bb3</title>
+<path fill="none" stroke="#666666" d="M27,-129.78C27,-123.67 27,-116.65 27,-109.97"/>
+<polygon fill="#666666" stroke="#666666" points="27,-102.41 30.6,-110.41 27,-105.19 27,-110.41 27,-110.41 27,-110.41 27,-105.19 23.4,-110.41 27,-102.41"/>
+</g>
+<!-- bb4 -->
+<g id="node6" class="node">
+<title>bb4</title>
+<path fill="#f9f9f9" stroke="#cccccc" d="M132,-101C132,-101 102,-101 102,-101 96,-101 90,-95 90,-89 90,-89 90,-77 90,-77 90,-71 96,-65 102,-65 102,-65 132,-65 132,-65 138,-65 144,-71 144,-77 144,-77 144,-89 144,-89 144,-95 138,-101 132,-101"/>
+<text xml:space="preserve" text-anchor="middle" x="117" y="-79.7" font-family="Segoe UI" font-size="11.00">bb4</text>
+</g>
+<!-- bb2&#45;&gt;bb4 -->
+<g id="edge5" class="edge">
+<title>bb2-&gt;bb4</title>
+<path fill="none" stroke="#666666" d="M51.59,-129.78C61.83,-122.62 73.85,-114.21 84.77,-106.56"/>
+<polygon fill="#666666" stroke="#666666" points="91.13,-102.11 86.64,-109.65 88.85,-103.71 84.57,-106.7 84.57,-106.7 84.57,-106.7 88.85,-103.71 82.51,-103.75 91.13,-102.11"/>
+</g>
+<!-- bb5 -->
+<g id="node7" class="node">
+<title>bb5</title>
+<path fill="#f9f9f9" stroke="#cccccc" d="M87,-36C87,-36 57,-36 57,-36 51,-36 45,-30 45,-24 45,-24 45,-12 45,-12 45,-6 51,0 57,0 57,0 87,0 87,0 93,0 99,-6 99,-12 99,-12 99,-24 99,-24 99,-30 93,-36 87,-36"/>
+<text xml:space="preserve" text-anchor="middle" x="72" y="-14.7" font-family="Segoe UI" font-size="11.00">bb5</text>
+</g>
+<!-- bb3&#45;&gt;bb5 -->
+<g id="edge6" class="edge">
+<title>bb3-&gt;bb5</title>
+<path fill="none" stroke="#666666" d="M39.3,-64.78C43.96,-58.26 49.36,-50.69 54.42,-43.61"/>
+<polygon fill="#666666" stroke="#666666" points="59.01,-37.19 57.29,-45.79 57.39,-39.45 54.36,-43.7 54.36,-43.7 54.36,-43.7 57.39,-39.45 51.43,-41.6 59.01,-37.19"/>
+</g>
+<!-- bb4&#45;&gt;bb5 -->
+<g id="edge7" class="edge">
+<title>bb4-&gt;bb5</title>
+<path fill="none" stroke="#666666" d="M104.7,-64.78C100.04,-58.26 94.64,-50.69 89.58,-43.61"/>
+<polygon fill="#666666" stroke="#666666" points="84.99,-37.19 92.57,-41.6 86.61,-39.45 89.64,-43.7 89.64,-43.7 89.64,-43.7 86.61,-39.45 86.71,-45.79 84.99,-37.19"/>
+</g>
+<!-- bb5&#45;&gt;bb1 -->
+<g id="edge8" class="edge">
+<title>bb5-&gt;bb1</title>
+<path fill="none" stroke="#888888" stroke-dasharray="5,2" d="M99.3,-24.83C120.48,-30.93 148.44,-42.85 162,-65 185.43,-103.29 185.43,-127.71 162,-166 150.24,-185.21 127.66,-196.72 108.05,-203.42"/>
+<polygon fill="#888888" stroke="#888888" points="100.46,-205.81 107.01,-199.97 103.12,-204.97 108.09,-203.41 108.09,-203.41 108.09,-203.41 103.12,-204.97 109.18,-206.84 100.46,-205.81"/>
+</g>
+</g>
+</svg>

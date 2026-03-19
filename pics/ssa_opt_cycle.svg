@@ -1,0 +1,125 @@
+<svg width="387pt" height="638pt" viewBox="0.00 0.00 387.00 638.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 633.6)">
+<title>CFG</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-633.6 383.19,-633.6 383.19,4 -4,4"/>
+<!-- bb0 -->
+<g id="node1" class="node">
+<title>bb0</title>
+<polygon fill="#f0f0f0" stroke="none" points="73.19,-603.6 73.19,-625.6 161.2,-625.6 161.2,-603.6 73.19,-603.6"/>
+<polygon fill="none" stroke="black" points="73.19,-603.6 73.19,-625.6 161.2,-625.6 161.2,-603.6 73.19,-603.6"/>
+<text xml:space="preserve" text-anchor="start" x="108.19" y="-612.6" font-family="Courier New" font-weight="bold" font-size="10.00">bb0</text>
+<polygon fill="none" stroke="black" points="73.19,-553.6 73.19,-603.6 161.2,-603.6 161.2,-553.6 73.19,-553.6"/>
+<text xml:space="preserve" text-anchor="start" x="90.19" y="-590.6" font-family="Courier New" font-size="10.00">res0 = 0;</text>
+<text xml:space="preserve" text-anchor="start" x="96.19" y="-580.6" font-family="Courier New" font-size="10.00">i0 = 0;</text>
+<text xml:space="preserve" text-anchor="start" x="78.19" y="-570.6" font-family="Courier New" font-size="10.00">len0 = n - 1;</text>
+<text xml:space="preserve" text-anchor="start" x="96.19" y="-560.6" font-family="Courier New" font-weight="bold" font-size="10.00">br bb1;</text>
+</g>
+<!-- bb1 -->
+<g id="node2" class="node">
+<title>bb1</title>
+<polygon fill="#f0f0f0" stroke="none" points="64.18,-478.6 64.18,-500.6 212.2,-500.6 212.2,-478.6 64.18,-478.6"/>
+<polygon fill="none" stroke="black" points="64.18,-478.6 64.18,-500.6 212.2,-500.6 212.2,-478.6 64.18,-478.6"/>
+<text xml:space="preserve" text-anchor="start" x="129.19" y="-487.6" font-family="Courier New" font-weight="bold" font-size="10.00">bb1</text>
+<polygon fill="none" stroke="black" points="64.18,-428.6 64.18,-478.6 212.2,-478.6 212.2,-428.6 64.18,-428.6"/>
+<text xml:space="preserve" text-anchor="start" x="69.18" y="-465.6" font-family="Courier New" font-size="10.00">res1 = phi(res0, res3);</text>
+<text xml:space="preserve" text-anchor="start" x="87.18" y="-455.6" font-family="Courier New" font-size="10.00">i1 = phi(i0, i2);</text>
+<text xml:space="preserve" text-anchor="start" x="93.18" y="-445.6" font-family="Courier New" font-size="10.00">c0 = i1 &lt; len0;</text>
+<text xml:space="preserve" text-anchor="start" x="90.18" y="-435.6" font-family="Courier New" font-weight="bold" font-size="10.00">br c0, bb2, bb3;</text>
+</g>
+<!-- bb0&#45;&gt;bb1 -->
+<g id="edge1" class="edge">
+<title>bb0-&gt;bb1</title>
+<path fill="none" stroke="#444444" d="M138.19,-549.68C138.19,-538.81 138.19,-526.84 138.19,-515.43"/>
+<polygon fill="#444444" stroke="#444444" points="138.19,-505.48 142.69,-515.48 138.19,-509.26 138.19,-515.48 138.19,-515.48 138.19,-515.48 138.19,-509.26 133.69,-515.48 138.19,-505.48"/>
+</g>
+<!-- bb2 -->
+<g id="node3" class="node">
+<title>bb2</title>
+<polygon fill="#f0f0f0" stroke="none" points="23.19,-343.8 23.19,-365.8 135.2,-365.8 135.2,-343.8 23.19,-343.8"/>
+<polygon fill="none" stroke="black" points="23.19,-343.8 23.19,-365.8 135.2,-365.8 135.2,-343.8 23.19,-343.8"/>
+<text xml:space="preserve" text-anchor="start" x="70.19" y="-352.8" font-family="Courier New" font-weight="bold" font-size="10.00">bb2</text>
+<polygon fill="none" stroke="black" points="23.19,-243.8 23.19,-343.8 135.2,-343.8 135.2,-243.8 23.19,-243.8"/>
+<text xml:space="preserve" text-anchor="start" x="46.19" y="-330.8" font-family="Courier New" font-size="10.00">t0 = a[i1];</text>
+<text xml:space="preserve" text-anchor="start" x="40.19" y="-320.8" font-family="Courier New" font-size="10.00">t1 = t0 &lt;&lt; 1;</text>
+<text xml:space="preserve" text-anchor="start" x="28.19" y="-310.8" font-family="Courier New" font-size="10.00">res2 = res1 + t1;</text>
+<text xml:space="preserve" text-anchor="start" x="43.19" y="-300.8" font-family="Courier New" font-size="10.00">t2 = i1 + 1;</text>
+<text xml:space="preserve" text-anchor="start" x="46.19" y="-290.8" font-family="Courier New" font-size="10.00">t3 = a[t2];</text>
+<text xml:space="preserve" text-anchor="start" x="43.19" y="-280.8" font-family="Courier New" font-size="10.00">t4 = t3 + 2;</text>
+<text xml:space="preserve" text-anchor="start" x="28.19" y="-270.8" font-family="Courier New" font-size="10.00">res3 = res2 - t4;</text>
+<text xml:space="preserve" text-anchor="start" x="43.19" y="-260.8" font-family="Courier New" font-size="10.00">i2 = i1 + 2;</text>
+<text xml:space="preserve" text-anchor="start" x="58.19" y="-250.8" font-family="Courier New" font-weight="bold" font-size="10.00">br bb1;</text>
+</g>
+<!-- bb1&#45;&gt;bb2 -->
+<g id="edge2" class="edge">
+<title>bb1-&gt;bb2</title>
+<path fill="none" stroke="#2b8a3e" d="M125.96,-425C121.66,-411.43 116.67,-395.69 111.76,-380.19"/>
+<polygon fill="#2b8a3e" stroke="#2b8a3e" points="108.74,-370.68 116.06,-378.85 109.89,-374.28 111.77,-380.21 111.77,-380.21 111.77,-380.21 109.89,-374.28 107.48,-381.57 108.74,-370.68"/>
+<text xml:space="preserve" text-anchor="middle" x="128.17" y="-394.5" font-family="Arial" font-size="9.00" fill="#2b8a3e">True </text>
+</g>
+<!-- bb3 -->
+<g id="node4" class="node">
+<title>bb3</title>
+<polygon fill="#f0f0f0" stroke="none" points="241.19,-308.8 241.19,-330.8 347.2,-330.8 347.2,-308.8 241.19,-308.8"/>
+<polygon fill="none" stroke="black" points="241.19,-308.8 241.19,-330.8 347.2,-330.8 347.2,-308.8 241.19,-308.8"/>
+<text xml:space="preserve" text-anchor="start" x="285.19" y="-317.8" font-family="Courier New" font-weight="bold" font-size="10.00">bb3</text>
+<polygon fill="none" stroke="black" points="241.19,-278.8 241.19,-308.8 347.2,-308.8 347.2,-278.8 241.19,-278.8"/>
+<text xml:space="preserve" text-anchor="start" x="258.19" y="-295.8" font-family="Courier New" font-size="10.00">c1 = i1 &lt; n;</text>
+<text xml:space="preserve" text-anchor="start" x="246.19" y="-285.8" font-family="Courier New" font-weight="bold" font-size="10.00">br c1, bb4, bb5;</text>
+</g>
+<!-- bb1&#45;&gt;bb3 -->
+<g id="edge3" class="edge">
+<title>bb1-&gt;bb3</title>
+<path fill="none" stroke="#c92a2a" d="M179.29,-425C206.22,-399.69 241.21,-366.83 267.62,-342.02"/>
+<polygon fill="#c92a2a" stroke="#c92a2a" points="274.64,-335.44 270.43,-345.56 271.88,-338.02 267.35,-342.28 267.35,-342.28 267.35,-342.28 271.88,-338.02 264.27,-339 274.64,-335.44"/>
+<text xml:space="preserve" text-anchor="middle" x="224.38" y="-394.5" font-family="Arial" font-size="9.00" fill="#c92a2a"> False</text>
+</g>
+<!-- bb2&#45;&gt;bb1 -->
+<g id="edge4" class="edge">
+<title>bb2:sw-&gt;bb1:nw</title>
+<path fill="none" stroke="#444444" stroke-dasharray="5,2" d="M23.38,-239C-17.81,-197.81 6.62,-312.18 15.19,-369.8 24.4,-431.69 6.34,-466.65 56.18,-504.5 67.82,-513.34 78.9,-517.06 89.5,-511.95"/>
+<polygon fill="#444444" stroke="#444444" points="97.31,-506.22 91.91,-515.76 94.26,-508.45 89.24,-512.13 89.24,-512.13 89.24,-512.13 94.26,-508.45 86.58,-508.5 97.31,-506.22"/>
+</g>
+<!-- bb4 -->
+<g id="node5" class="node">
+<title>bb4</title>
+<polygon fill="#f0f0f0" stroke="none" points="94.19,-159 94.19,-181 206.2,-181 206.2,-159 94.19,-159"/>
+<polygon fill="none" stroke="black" points="94.19,-159 94.19,-181 206.2,-181 206.2,-159 94.19,-159"/>
+<text xml:space="preserve" text-anchor="start" x="141.19" y="-168" font-family="Courier New" font-weight="bold" font-size="10.00">bb4</text>
+<polygon fill="none" stroke="black" points="94.19,-109 94.19,-159 206.2,-159 206.2,-109 94.19,-109"/>
+<text xml:space="preserve" text-anchor="start" x="117.19" y="-146" font-family="Courier New" font-size="10.00">t4 = a[i1];</text>
+<text xml:space="preserve" text-anchor="start" x="111.19" y="-136" font-family="Courier New" font-size="10.00">t5 = t4 &lt;&lt; 1;</text>
+<text xml:space="preserve" text-anchor="start" x="99.19" y="-126" font-family="Courier New" font-size="10.00">res4 = res1 + t5;</text>
+<text xml:space="preserve" text-anchor="start" x="129.19" y="-116" font-family="Courier New" font-weight="bold" font-size="10.00">br bb5;</text>
+</g>
+<!-- bb3&#45;&gt;bb4 -->
+<g id="edge5" class="edge">
+<title>bb3-&gt;bb4</title>
+<path fill="none" stroke="#2b8a3e" d="M279.23,-274.86C257.89,-251.96 227.67,-219.52 202.89,-192.92"/>
+<polygon fill="#2b8a3e" stroke="#2b8a3e" points="196.23,-185.76 206.33,-190.01 198.8,-188.53 203.04,-193.08 203.04,-193.08 203.04,-193.08 198.8,-188.53 199.75,-196.14 196.23,-185.76"/>
+<text xml:space="preserve" text-anchor="middle" x="234.39" y="-209.7" font-family="Arial" font-size="9.00" fill="#2b8a3e">True </text>
+</g>
+<!-- bb5 -->
+<g id="node6" class="node">
+<title>bb5</title>
+<polygon fill="#f0f0f0" stroke="none" points="193.18,-34 193.18,-56 341.2,-56 341.2,-34 193.18,-34"/>
+<polygon fill="none" stroke="black" points="193.18,-34 193.18,-56 341.2,-56 341.2,-34 193.18,-34"/>
+<text xml:space="preserve" text-anchor="start" x="258.19" y="-43" font-family="Courier New" font-weight="bold" font-size="10.00">bb5</text>
+<polygon fill="none" stroke="black" points="193.18,-4 193.18,-34 341.2,-34 341.2,-4 193.18,-4"/>
+<text xml:space="preserve" text-anchor="start" x="198.18" y="-21" font-family="Courier New" font-size="10.00">res5 = phi(res1, res4);</text>
+<text xml:space="preserve" text-anchor="start" x="231.18" y="-11" font-family="Courier New" font-weight="bold" font-size="10.00">return res5;</text>
+</g>
+<!-- bb3&#45;&gt;bb5 -->
+<g id="edge6" class="edge">
+<title>bb3-&gt;bb5</title>
+<path fill="none" stroke="#c92a2a" d="M302.05,-274.86C295.03,-225.73 280.76,-125.93 272.83,-70.44"/>
+<polygon fill="#c92a2a" stroke="#c92a2a" points="271.45,-60.85 277.32,-70.11 271.99,-64.59 272.87,-70.74 272.87,-70.74 272.87,-70.74 271.99,-64.59 268.42,-71.38 271.45,-60.85"/>
+<text xml:space="preserve" text-anchor="middle" x="300.89" y="-142.3" font-family="Arial" font-size="9.00" fill="#c92a2a"> False</text>
+</g>
+<!-- bb4&#45;&gt;bb5 -->
+<g id="edge7" class="edge">
+<title>bb4-&gt;bb5</title>
+<path fill="none" stroke="#444444" d="M196.36,-105.11C207.86,-93.08 220.49,-79.86 231.86,-67.96"/>
+<polygon fill="#444444" stroke="#444444" points="238.66,-60.84 235.01,-71.18 236.05,-63.58 231.76,-68.07 231.76,-68.07 231.76,-68.07 236.05,-63.58 228.5,-64.96 238.66,-60.84"/>
+</g>
+</g>
+</svg>

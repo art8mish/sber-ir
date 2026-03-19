@@ -1,0 +1,36 @@
+int function2 (int *a , int n) {
+bb0:
+    result = 0;
+    i = 0;
+    br b1;
+bb1:
+    c0 = i < n;
+    br c0, bb2, bb6;
+bb2:
+    x = 2;
+    y = 1;
+    t0 = i % 2;
+    c1 = t0 == 0;
+    br c1, bb3, bb4;
+bb3:
+    t1 = i * 4;
+    t2 = a + t1;
+    t3 = *t2;
+    t4 = x * y;
+    t6 = t3 * t4;
+    result = result + t6;
+    br bb5;
+bb4:
+    t7 = i1 * 4;
+    t8 = a + t7;
+    t9 = *t8;
+    t10 = x * y;
+    t11 = t9 + t10;
+    result = result - t11;
+    br bb5;
+bb5:
+    i2 = i1 + 1;
+    br bb1;
+bb6:
+    return result;
+}

@@ -1,0 +1,31 @@
+int function2 (int∗ a , int n) {
+bb0:
+    res0 = 0;
+    i0 = 0;
+    br b1;
+bb1:
+    res1 = phi(res0, res4);
+    i1 = phi(i0, i2);
+    c0 = i1 < n;
+    br c0, bb2, bb6;
+bb2:
+    t0 = i1 % 2;
+    c1 = t0 == 0;
+    br c1, bb3, bb4;
+bb3:
+    t1 = a[i1];
+    t2 = t1 << 1;
+    res2 = res1 + t2;
+    br bb5;
+bb4:
+    t3 = a[i1];
+    t4 = t3 + 2;
+    res3 = res1 - t4;
+    br bb5;
+bb5:
+    res4 = phi(res2, res3)
+    i2 = i1 + 1;
+    br bb1;
+bb6:
+    return res;
+}
