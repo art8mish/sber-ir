@@ -23,9 +23,9 @@ bb3:
     c1 = i1 < n;
     br c1, bb4, bb5;
 bb4:
-    t4 = a[i1];
-    t5 = t4 << 1;
-    res4 = res1 + t5;
+    t5 = a[i1];
+    t6 = t5 << 1;
+    res4 = res1 + t6;
     br bb5;
 bb5:
     res5 = phi(res1, res4);

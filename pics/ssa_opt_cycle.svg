@@ -86,8 +86,8 @@
 <polygon fill="none" stroke="black" points="94.19,-159 94.19,-181 206.2,-181 206.2,-159 94.19,-159"/>
 <text xml:space="preserve" text-anchor="start" x="141.19" y="-168" font-family="Courier New" font-weight="bold" font-size="10.00">bb4</text>
 <polygon fill="none" stroke="black" points="94.19,-109 94.19,-159 206.2,-159 206.2,-109 94.19,-109"/>
-<text xml:space="preserve" text-anchor="start" x="117.19" y="-146" font-family="Courier New" font-size="10.00">t4 = a[i1];</text>
-<text xml:space="preserve" text-anchor="start" x="111.19" y="-136" font-family="Courier New" font-size="10.00">t5 = t4 &lt;&lt; 1;</text>
+<text xml:space="preserve" text-anchor="start" x="117.19" y="-146" font-family="Courier New" font-size="10.00">t5 = a[i1];</text>
+<text xml:space="preserve" text-anchor="start" x="111.19" y="-136" font-family="Courier New" font-size="10.00">t6 = t5 &lt;&lt; 1;</text>
 <text xml:space="preserve" text-anchor="start" x="99.19" y="-126" font-family="Courier New" font-size="10.00">res4 = res1 + t5;</text>
 <text xml:space="preserve" text-anchor="start" x="129.19" y="-116" font-family="Courier New" font-weight="bold" font-size="10.00">br bb5;</text>
 </g>

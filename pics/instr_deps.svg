@@ -1,0 +1,148 @@
+<svg width="472pt" height="561pt" viewBox="0.00 0.00 472.00 561.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 557)">
+<title>InstructionDAG</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-557 468.22,-557 468.22,4 -4,4"/>
+<!-- I1 -->
+<g id="node1" class="node">
+<title>I1</title>
+<polygon fill="lightgrey" stroke="black" points="408.22,-553 241,-553 241,-517 408.22,-517 408.22,-553"/>
+<text xml:space="preserve" text-anchor="middle" x="324.61" y="-530.8" font-family="Courier,monospace" font-size="14.00">I1: slli t2, t1, 2</text>
+</g>
+<!-- I2 -->
+<g id="node2" class="node">
+<title>I2</title>
+<polygon fill="lightgrey" stroke="black" points="352.22,-469 185,-469 185,-433 352.22,-433 352.22,-469"/>
+<text xml:space="preserve" text-anchor="middle" x="268.61" y="-446.8" font-family="Courier,monospace" font-size="14.00">I2: add t2, a0, t2</text>
+</g>
+<!-- I1&#45;&gt;I2 -->
+<g id="edge1" class="edge">
+<title>I1-&gt;I2</title>
+<path fill="none" stroke="black" d="M312.74,-516.61C305.24,-505.63 295.4,-491.22 286.91,-478.8"/>
+<polygon fill="black" stroke="black" points="289.85,-476.9 281.32,-470.61 284.07,-480.85 289.85,-476.9"/>
+<text xml:space="preserve" text-anchor="middle" x="320.52" y="-490" font-family="Arial" font-size="10.00">RAW (t2)</text>
+</g>
+<!-- I9 -->
+<g id="node9" class="node">
+<title>I9</title>
+<polygon fill="lightyellow" stroke="black" points="464.22,-415 297,-415 297,-379 464.22,-379 464.22,-415"/>
+<text xml:space="preserve" text-anchor="middle" x="380.61" y="-392.8" font-family="Courier,monospace" font-size="14.00">I9: addi t1, t1, 2</text>
+</g>
+<!-- I1&#45;&gt;I9 -->
+<g id="edge10" class="edge">
+<title>I1-&gt;I9</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M334.59,-516.56C337.8,-510.96 341.36,-504.72 344.61,-499 352.19,-485.68 355.81,-483.18 361.61,-469 367.22,-455.3 371.65,-439.43 374.81,-426.18"/>
+<polygon fill="black" stroke="black" points="378.14,-427.33 376.93,-416.8 371.31,-425.78 378.14,-427.33"/>
+<text xml:space="preserve" text-anchor="middle" x="372.52" y="-490" font-family="Arial" font-size="10.00">WAR (t1)</text>
+</g>
+<!-- I3 -->
+<g id="node3" class="node">
+<title>I3</title>
+<polygon fill="lightblue" stroke="black" points="232.82,-361 82.4,-361 82.4,-325 232.82,-325 232.82,-361"/>
+<text xml:space="preserve" text-anchor="middle" x="157.61" y="-338.8" font-family="Courier,monospace" font-size="14.00">I3: lw t3, 0(t2)</text>
+</g>
+<!-- I2&#45;&gt;I3 -->
+<g id="edge2" class="edge">
+<title>I2-&gt;I3</title>
+<path fill="none" stroke="black" d="M237.26,-432.66C229.13,-427.49 220.65,-421.46 213.5,-415 199.04,-401.92 185.44,-384.81 175.28,-370.65"/>
+<polygon fill="black" stroke="black" points="178.29,-368.85 169.69,-362.66 172.55,-372.86 178.29,-368.85"/>
+<text xml:space="preserve" text-anchor="middle" x="234.06" y="-394" font-family="Arial" font-size="10.00">RAW (t2)</text>
+</g>
+<!-- I6 -->
+<g id="node6" class="node">
+<title>I6</title>
+<polygon fill="lightblue" stroke="black" points="343.82,-277 193.4,-277 193.4,-241 343.82,-241 343.82,-277"/>
+<text xml:space="preserve" text-anchor="middle" x="268.61" y="-254.8" font-family="Courier,monospace" font-size="14.00">I6: lw t2, 4(t2)</text>
+</g>
+<!-- I2&#45;&gt;I6 -->
+<g id="edge3" class="edge">
+<title>I2-&gt;I6</title>
+<path fill="none" stroke="black" d="M268.61,-432.8C268.61,-400.1 268.61,-328.66 268.61,-288.63"/>
+<polygon fill="black" stroke="black" points="272.11,-288.81 268.61,-278.81 265.11,-288.81 272.11,-288.81"/>
+<text xml:space="preserve" text-anchor="middle" x="289.17" y="-340" font-family="Arial" font-size="10.00">RAW (t2)</text>
+</g>
+<!-- I4 -->
+<g id="node4" class="node">
+<title>I4</title>
+<polygon fill="lightgrey" stroke="black" points="173.22,-277 6,-277 6,-241 173.22,-241 173.22,-277"/>
+<text xml:space="preserve" text-anchor="middle" x="89.61" y="-254.8" font-family="Courier,monospace" font-size="14.00">I4: slli t3, t3, 1</text>
+</g>
+<!-- I3&#45;&gt;I4 -->
+<g id="edge4" class="edge">
+<title>I3-&gt;I4</title>
+<path fill="none" stroke="blue" d="M143.19,-324.61C133.91,-313.41 121.66,-298.65 111.23,-286.06"/>
+<polygon fill="blue" stroke="blue" points="114.06,-283.99 104.98,-278.53 108.67,-288.46 114.06,-283.99"/>
+<text xml:space="preserve" text-anchor="middle" x="148.24" y="-298" font-family="Arial" font-size="10.00" fill="blue">RAW (t3)</text>
+</g>
+<!-- I3&#45;&gt;I6 -->
+<g id="edge6" class="edge">
+<title>I3-&gt;I6</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M177.01,-324.59C187.53,-315.43 200.93,-304.22 213.5,-295 218.77,-291.14 224.47,-287.24 230.12,-283.52"/>
+<polygon fill="black" stroke="black" points="231.74,-286.64 238.25,-278.28 227.95,-280.75 231.74,-286.64"/>
+<text xml:space="preserve" text-anchor="middle" x="234.06" y="-298" font-family="Arial" font-size="10.00">WAR (t2)</text>
+</g>
+<!-- I5 -->
+<g id="node5" class="node">
+<title>I5</title>
+<polygon fill="lightgrey" stroke="black" points="167.22,-193 0,-193 0,-157 167.22,-157 167.22,-193"/>
+<text xml:space="preserve" text-anchor="middle" x="83.61" y="-170.8" font-family="Courier,monospace" font-size="14.00">I5: add t0, t0, t3</text>
+</g>
+<!-- I4&#45;&gt;I5 -->
+<g id="edge5" class="edge">
+<title>I4-&gt;I5</title>
+<path fill="none" stroke="black" d="M88.34,-240.61C87.58,-230.17 86.59,-216.64 85.71,-204.66"/>
+<polygon fill="black" stroke="black" points="89.21,-204.59 84.99,-194.87 82.23,-205.1 89.21,-204.59"/>
+<text xml:space="preserve" text-anchor="middle" x="107.53" y="-214" font-family="Arial" font-size="10.00">RAW (t3)</text>
+</g>
+<!-- I8 -->
+<g id="node8" class="node">
+<title>I8</title>
+<polygon fill="lightgrey" stroke="black" points="352.22,-109 185,-109 185,-73 352.22,-73 352.22,-109"/>
+<text xml:space="preserve" text-anchor="middle" x="268.61" y="-86.8" font-family="Courier,monospace" font-size="14.00">I8: sub t0, t0, t2</text>
+</g>
+<!-- I5&#45;&gt;I8 -->
+<g id="edge8" class="edge">
+<title>I5-&gt;I8</title>
+<path fill="none" stroke="black" d="M122.85,-156.61C150.93,-144.16 188.95,-127.31 219.12,-113.94"/>
+<polygon fill="black" stroke="black" points="220.33,-117.23 228.05,-109.98 217.49,-110.83 220.33,-117.23"/>
+<text xml:space="preserve" text-anchor="middle" x="207.74" y="-130" font-family="Arial" font-size="10.00">RAW (t0)</text>
+</g>
+<!-- I7 -->
+<g id="node7" class="node">
+<title>I7</title>
+<polygon fill="lightgrey" stroke="black" points="352.22,-193 185,-193 185,-157 352.22,-157 352.22,-193"/>
+<text xml:space="preserve" text-anchor="middle" x="268.61" y="-170.8" font-family="Courier,monospace" font-size="14.00">I7: addi t2, t2, 2</text>
+</g>
+<!-- I6&#45;&gt;I7 -->
+<g id="edge7" class="edge">
+<title>I6-&gt;I7</title>
+<path fill="none" stroke="blue" d="M268.61,-240.61C268.61,-230.17 268.61,-216.64 268.61,-204.66"/>
+<polygon fill="blue" stroke="blue" points="272.11,-204.88 268.61,-194.88 265.11,-204.88 272.11,-204.88"/>
+<text xml:space="preserve" text-anchor="middle" x="289.17" y="-214" font-family="Arial" font-size="10.00" fill="blue">RAW (t2)</text>
+</g>
+<!-- I7&#45;&gt;I8 -->
+<g id="edge9" class="edge">
+<title>I7-&gt;I8</title>
+<path fill="none" stroke="black" d="M268.61,-156.61C268.61,-146.17 268.61,-132.64 268.61,-120.66"/>
+<polygon fill="black" stroke="black" points="272.11,-120.88 268.61,-110.88 265.11,-120.88 272.11,-120.88"/>
+<text xml:space="preserve" text-anchor="middle" x="289.17" y="-130" font-family="Arial" font-size="10.00">RAW (t2)</text>
+</g>
+<!-- I10 -->
+<g id="node10" class="node">
+<title>I10</title>
+<polygon fill="lightgrey" stroke="black" points="374.62,-36 274.61,-36 274.61,0 374.62,0 374.62,-36"/>
+<text xml:space="preserve" text-anchor="middle" x="324.61" y="-13.8" font-family="Courier,monospace" font-size="14.00">I10: j bb1</text>
+</g>
+<!-- I8&#45;&gt;I10 -->
+<g id="edge11" class="edge">
+<title>I8-&gt;I10</title>
+<path fill="none" stroke="black" d="M282.17,-72.81C288.77,-64.44 296.85,-54.2 304.18,-44.9"/>
+<polygon fill="black" stroke="black" points="306.8,-47.24 310.24,-37.22 301.3,-42.9 306.8,-47.24"/>
+</g>
+<!-- I9&#45;&gt;I10 -->
+<g id="edge12" class="edge">
+<title>I9-&gt;I10</title>
+<path fill="none" stroke="black" d="M380.61,-378.68C380.61,-359.81 380.61,-328.76 380.61,-302 380.61,-302 380.61,-302 380.61,-90 380.61,-72.1 369.5,-56.06 357.18,-43.77"/>
+<polygon fill="black" stroke="black" points="359.86,-41.48 350.13,-37.29 355.12,-46.63 359.86,-41.48"/>
+</g>
+</g>
+</svg>
